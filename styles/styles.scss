@@ -39,7 +39,7 @@ a{
 header{
     height: 100vh;
     color: var(--color-white);
-    overflow: hidden;
+    // overflow: hidden;
 }
 
 section{
@@ -82,7 +82,7 @@ section{
     animation: scaleAnim 1s ease-in-out;
     @keyframes scaleAnim {
         0%{
-            transform: translateY(-100%) scaleY(0);
+            transform: translateY(-100%) scaleY(1);
         }
 
 
@@ -135,3 +135,15 @@ section{
         }
     }
 }
+
+// Header-Content
+.header-content{
+    display: grid;
+    grid-template-columns: repeat(1, 2fr);
+}
+
+
+
+
+
+// Independent Components

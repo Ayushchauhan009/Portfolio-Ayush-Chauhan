@@ -41,7 +41,6 @@ a {
 header {
   height: 100vh;
   color: var(--color-white);
-  overflow: hidden;
 }
 
 section {
@@ -96,8 +95,8 @@ section {
 
 @-webkit-keyframes scaleAnim {
   0% {
-    -webkit-transform: translateY(-100%) scaleY(0);
-            transform: translateY(-100%) scaleY(0);
+    -webkit-transform: translateY(-100%) scaleY(1);
+            transform: translateY(-100%) scaleY(1);
   }
   100% {
     -webkit-transform: translateY(0) scaleY(1);
@@ -107,8 +106,8 @@ section {
 
 @keyframes scaleAnim {
   0% {
-    -webkit-transform: translateY(-100%) scaleY(0);
-            transform: translateY(-100%) scaleY(0);
+    -webkit-transform: translateY(-100%) scaleY(1);
+            transform: translateY(-100%) scaleY(1);
   }
   100% {
     -webkit-transform: translateY(0) scaleY(1);
@@ -173,5 +172,12 @@ section {
   pointer-events: none;
   font-size: 1.2rem;
   color: var(--color-grey-2);
+}
+
+.header-content {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (2fr)[1];
+      grid-template-columns: repeat(1, 2fr);
 }
 /*# sourceMappingURL=styles.css.map */
