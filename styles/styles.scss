@@ -138,8 +138,19 @@ section{
 
 // Header-Content
 .header-content{
-    display: grid;
-    grid-template-columns: repeat(1, 2fr);
+   display: grid;
+    grid-template-columns: repeat(2, fr);
+}
+
+.right-header p{
+    width: 400px;
+}
+.image img{
+    width: 250px;
+    height: 400px;
+    margin-top: 20px;
+    border-radius: 50px;
+    box-sizing: border-box;
 }
 
 
