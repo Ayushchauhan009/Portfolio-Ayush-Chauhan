@@ -41,6 +41,7 @@ a {
 header {
   height: 100vh;
   color: var(--color-white);
+  overflow: hidden;
 }
 
 section {
@@ -172,5 +173,31 @@ section {
   pointer-events: none;
   font-size: 1.2rem;
   color: var(--color-grey-2);
+}
+
+.header-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.right-header p {
+  width: 48vw;
+  padding-right: 20px;
+  color: black;
+}
+
+.image img {
+  height: 100vh;
 }
 /*# sourceMappingURL=styles.css.map */
