@@ -173,24 +173,4 @@ section {
   font-size: 1.2rem;
   color: var(--color-grey-2);
 }
-
-.header-content {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: (fr)[2];
-      grid-template-columns: repeat(2, fr);
-}
-
-.right-header p {
-  width: 400px;
-}
-
-.image img {
-  width: 250px;
-  height: 400px;
-  margin-top: 20px;
-  border-radius: 50px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
 /*# sourceMappingURL=styles.css.map */
